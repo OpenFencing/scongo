@@ -23,5 +23,6 @@ class MainWindow(QMainWindow):
 
 app = QApplication([])
 window = MainWindow()
+window.clock.startClock()
 window.show()
 app.exec_()	
